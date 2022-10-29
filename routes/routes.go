@@ -7,6 +7,6 @@ import (
 )
 
 func RoutesAPI(app *fiber.App) {
-	app.Get("/intern_details", controllers.UserAPI)
+	app.Get("/", controllers.UserAPI)
 
 }
