@@ -8,5 +8,6 @@ import (
 
 func RoutesAPI(app *fiber.App) {
 	app.Get("/", controllers.UserAPI)
+	app.Post("/arith", controllers.Arith_Operator)
 
 }
